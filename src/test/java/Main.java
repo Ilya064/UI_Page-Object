@@ -46,7 +46,7 @@ public class Main {
     }
 
     @Test
-    public void testBookingManagement(){
+    public void testBooking(){
         PobedaPage mainPage = new PobedaPage(driver);
         Booking bookingManagementPage = new Booking(driver, wait);
         mainPage.siteIsOpen();
